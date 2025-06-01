@@ -2,7 +2,7 @@ version: "3"
 
 tasks:
   01-build:
-    desc: "Build the project"
+    desc: "Build the application"
     cmds:
       - echo "Building the project..."
       - go build -o app
@@ -12,4 +12,3 @@ tasks:
     cmds:
       - echo "Running the application..."
       - ./app
-  
