@@ -12,3 +12,8 @@ tasks:
     cmds:
       - echo "Running the application..."
       - ./app
+  03-test:
+    desc: "Run tests"
+    cmds:
+      - echo "Running tests..."
+      - go test -v
