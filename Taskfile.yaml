@@ -1,0 +1,19 @@
+version: "3"
+
+tasks:
+  01-build:
+    desc: "Build the application"
+    cmds:
+      - echo "Building the project..."
+      - go build -o app
+
+  02-run:
+    desc: "Run the application"
+    cmds:
+      - echo "Running the application..."
+      - ./app
+  03-test:
+    desc: "Run tests"
+    cmds:
+      - echo "Running tests..."
+      - go test -v
